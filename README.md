@@ -4,7 +4,8 @@ Esse é seu segundo desafio na Meentoria, estamos fazendo-o para que você possa
 - CSS;
 - Bootstrap;
 - JavaScript;
-- jQuery.
+- jQuery;
+- ES6.
 
 Caso tenha dúvidas sobre como proceder em algum momento recomendamos que você:
 - Reveja as aulas;
