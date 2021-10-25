@@ -1,5 +1,4 @@
-# Desafio Git e GitHub
-
+# Desafio Front-end
 Esse é seu segundo desafio na Meentoria, estamos fazendo-o para que você possa por em prática e por em teste os conhecimentos que você adquiriu sobre:
 - HTML;
 - CSS;
