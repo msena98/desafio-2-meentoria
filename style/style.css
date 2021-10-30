@@ -1,0 +1,25 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+h1 {
+    color:#D6000D;
+    
+}
+li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.btn {
+    border-radius: 10px;
+}
+#codar {
+    color:#D6000D;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: xx-large;
+}
+#login {
+    background-color: #D6000D;
+    color: white;
+}
