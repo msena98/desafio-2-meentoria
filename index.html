@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,68 +14,79 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="/style/style.css">
     <title>Codar.</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid p-0">
-            <div>
-                <a class="navbar-brand" href="#"><span id="codar">Codar</span><b>.</b></a>
-            </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light mb-5">
+        <a class="navbar-brand pt-0 mb-5 ml-5" href="#"><span id="codar">Codar</span><span id="point">.</span></a>
+        <div class="container-fluid ">
             <div class="ml-auto">
-                <ul class="navbar-nav font-weight-bold">
-                    <li class="nav-item m-lg-auto">
+                <ul class="navbar-nav">
+                    <li class="nav-item m-3">
                         <a class="nav-link active " aria-current="page" href="#">Início</a>
                     </li>
-                    <li class="nav-item m-lg-auto">
+                    <li class="nav-item m-3">
                         <a class="nav-link active" aria-current="page" href="#">Serviços</a>
                     </li>
-                    <li class="nav-item m-lg-auto">
+                    <li class="nav-item m-3">
                         <a class="nav-link active" aria-current="page" href="#">Contato</a>
-                    </li>    
+                    </li>
                 </ul>
             </div>
             <div>
-                <ul class="navbar-nav">
-                    <li class="nav-item p-1 m-auto">
-                        <a class="nav-link p-0 active" aria-current="page" href="#"><button type="button" id="login"
-                            class="btn btn-block">Login</button></a>
+                <ul class="navbar-nav pr-5">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><button type="button" id="btn-login"
+                                class="btn btn-block m-5 pt2 pb-2 pl-4 pr-4"><b>Login</b> </button></a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <div class="jumbotron jumbotron-fluid bg-light">
+    <div class="jumbotron jumbotron-fluid bg-light  mb-5">
         <div class="container">
-          <div class="row">
-            <div class="col m-auto">
-                <img class="img-fluid" src="assets/video_call.png" alt="">
+            <div class="row">
+                <div class="col m-auto pr-3">
+                    <img class="img-fluid" src="assets/video_call.png" alt="">
+                </div>
+                <div class="col mt-5 pt-5 ml-5 pl">
+                    <h3 class="font-weight-bold"><b>Alavanque seu négocio com um</b></h3>
+                    <h1 class="display-3 font-weight-bold">Website incrível</h1>
+                    <br>
+                    <button type="button" id="btn-orcamento" class="btn btn-lg btn pl-5 pr-5"><b>Solicitar
+                            orçamento</b></button>
+                </div>
             </div>
-            <div class="col mt-5 pt-5 ml-5">
-                <h3 class=""><b>Alavanque seu négocio com um</b></h3>
-                <h1 class="display-3">Website incrível</h1>
-                <br>
-                <button type="button" id="login" class="btn btn-lg">Solicitar orçamento</button>
-            </div>
-          </div>
         </div>
     </div>
-    <div class="jumbotron jumbotron-fluid bg-light">
+    <div class="jumbotron jumbotron-fluid bg-light mt-5 pt-5">
         <div class="container">
-          <div class="row">
-            
-            <div class="col mt-5 pt-5 ml-5">
-                <h3 class=""><b>Alavanque seu négocio com um</b></h3>
-                <h1 class="display-3">Website incrível</h1>
-                <br>
-                <button type="button" id="login" class="btn btn-lg">Solicitar orçamento</button>
+            <div class="row">
+                <div class="col mt-5">
+                    <ul class="servicos">
+                        <li>Domínio personalizado</li>
+                        <li>Hospedagem</li>
+                        <li>Site responsivo</li>
+                        <li>Redes sociais</li>
+                        <li>Chat online</li>
+                        <li>Blog integrado</li>
+                    </ul>
+                    <br>
+                    <br>
+                    <br>
+                    <p><b>Nossa equipe está a disposição!</b></p>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="input-celular" placeholder="Celular">
+                    </div>
+                    <button type="button" id="btn-ligacao" class="btn"><b>Ligamos para você</b></button>
+                </div>
+                <div class="col m-auto">
+                    <img class="img-fluid" src="assets/coding_.png" alt="">
+                </div>
             </div>
-            <div class="col m-auto">
-                <img class="img-fluid" src="assets/coding_.png" alt="">
-            </div>
-          </div>
         </div>
     </div>
 </body>
