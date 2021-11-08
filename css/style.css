@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body, main {
+    font-family: 'Roboto', sans-serif;
+}
+footer {
+    background-color: black
+}
+.btn {
+    border-radius: 10px;
+}
+.card {
+    background-color: rgb(218, 218, 218);
+    border: none;
+    border-radius: 15px;
+}
+.col-3 > h2{
+    color: white;
+}
+.col-3 > h5{
+    color: white;
+}
+.display-4 {
+    color: white;
+}
+.branco {
+    color: white;
+}
+.vermelho {
+    color: #D6000D;
+}
+.fundo-vermelho {
+    background-color: #D6000D;
+}
+.btn-size {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.btn-size-2 {
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+.icon-size {
+    height: 40px;
+    margin: 10px;
+}
+.list-unstyled > li > a {
+    line-height: 50px;
+}
+#codar {
+    color: #D6000D;
+    font-weight: bolder;
+    font-style: italic;
+    font-size:4rem;
+}
+#ponto {
+    font-size: 4rem;
+}
+#servicos > li{
+    font-size: 2rem;
+    background: url('../assets/check-circle-fill.png') no-repeat 7px 7px transparent;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px 0px 10px 70px;
+    vertical-align: middle;
+}
+#input-celular {
+    border-radius: 15px;
+    background:#dddddd;
+    height: 80px;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+#circulo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color:#D6000D;
+    margin: 1em;
+    float: left;
+}

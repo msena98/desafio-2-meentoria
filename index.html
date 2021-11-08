@@ -1,94 +1,158 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="/style/style.css">
-    <title>Codar.</title>
+  <!-- Meta Tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+  <!-- Style CSS-->
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Codar.</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light mb-5">
-        <a class="navbar-brand pt-0 mb-5 ml-5" href="#"><span id="codar">Codar</span><span id="point">.</span></a>
-        <div class="container-fluid ">
-            <div class="ml-auto">
-                <ul class="navbar-nav">
-                    <li class="nav-item m-3">
-                        <a class="nav-link active " aria-current="page" href="#">Início</a>
-                    </li>
-                    <li class="nav-item m-3">
-                        <a class="nav-link active" aria-current="page" href="#">Serviços</a>
-                    </li>
-                    <li class="nav-item m-3">
-                        <a class="nav-link active" aria-current="page" href="#">Contato</a>
-                    </li>
-                </ul>
-            </div>
-            <div>
-                <ul class="navbar-nav pr-5">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#"><button type="button" id="btn-login"
-                                class="btn btn-block m-5 pt2 pb-2 pl-4 pr-4"><b>Login</b> </button></a>
-                    </li>
-                </ul>
-            </div>
+  <header>
+    <!-- Navbar-->
+    <div class="container-fluid mb-5">
+      <div class="row pt-4 pl-3">
+        <div class="col-6">
+          <h5 class="font-weight-normal"><span id="codar">Codar</span><span id="ponto">.</span></h5>
         </div>
-    </nav>
-    <div class="jumbotron jumbotron-fluid bg-light  mb-5">
-        <div class="container">
-            <div class="row">
-                <div class="col m-auto pr-3">
-                    <img class="img-fluid" src="assets/video_call.png" alt="">
-                </div>
-                <div class="col mt-5 pt-5 ml-5 pl">
-                    <h3 class="font-weight-bold"><b>Alavanque seu négocio com um</b></h3>
-                    <h1 class="display-3 font-weight-bold">Website incrível</h1>
-                    <br>
-                    <button type="button" id="btn-orcamento" class="btn btn-lg btn pl-5 pr-5"><b>Solicitar
-                            orçamento</b></button>
-                </div>
-            </div>
+        <div class="col-6 pl-0">
+          <nav class="navbar">
+            <a class="p-2 text-dark h2" href="#">Início</a>
+            <a class="p-2 text-dark h2" href="#">Serviços</a>
+            <a class="p-2 text-dark h2" href="#">Contato</a>
+            <a class="btn btn-danger fundo-vermelho pl-5 pr-5 ml-2 btn-size" href="#">Login</a>
+          </nav>
         </div>
+      </div>
     </div>
-    <div class="jumbotron jumbotron-fluid bg-light mt-5 pt-5">
-        <div class="container">
-            <div class="row">
-                <div class="col mt-5">
-                    <ul class="servicos">
-                        <li>Domínio personalizado</li>
-                        <li>Hospedagem</li>
-                        <li>Site responsivo</li>
-                        <li>Redes sociais</li>
-                        <li>Chat online</li>
-                        <li>Blog integrado</li>
-                    </ul>
-                    <br>
-                    <br>
-                    <br>
-                    <p><b>Nossa equipe está a disposição!</b></p>
-                    <div class="form-group">
-                        <input type="text" class="form-control" id="input-celular" placeholder="Celular">
-                    </div>
-                    <button type="button" id="btn-ligacao" class="btn"><b>Ligamos para você</b></button>
-                </div>
-                <div class="col m-auto">
-                    <img class="img-fluid" src="assets/coding_.png" alt="">
-                </div>
-            </div>
+    <!-- /Navbar-->
+  </header>
+
+  <main>
+    <!-- Primeira seção-->
+    <div class="container-fluid mb-5 pb-5">
+      <div class="row">
+        <div class="col-6">
+          <div class="container p-5 ml-5">
+            <img class="img-fluid p-5" src="assets/video_call.png" alt="video chamada">
+          </div>
         </div>
+        <div class="col-6 pl-5 pt-5">
+          <div class="container-fluid pt-5 pl-5">
+            <h2 class="font-weight-bold pt-5">Alavanque seu negócio com um</h2>
+            <h1 class="display-3 font-weight-bold vermelho">Website incrível</h1>
+            <button class="btn btn-lg btn-danger fundo-vermelho btn-size mt-5 pl-5 pr-5">Solicitar orçamento</button>
+          </div>
+        </div>
+      </div>
     </div>
+    <!-- /Primeira seção-->
+
+    <!-- Segunda seção-->
+    <div class="container-fluid mt-5 pt-5">
+      <div class="row">
+        <div class="col">
+          <div class="container-fluid pt-5 pl-5 ml-5">
+            <ul class="h2 mb-5 pt-5" id="servicos">
+              <li>Domínio personalizado</li>
+              <li>Hospedagem</li>
+              <li>Site responsivo</li>
+              <li>Redes Sociais</li>
+              <li>Chat online</li>
+              <li>Blog integrado</li>
+            </ul>
+            <form class="container-fluid ml-5 mt-5 pt-5 mb-5">
+              <h2 class="font-weight-bold">Nossa equipe está à disposição!</h2>
+              <div class="input-group mt-3">
+                <input type="text" class="form-control mr-3 pl-4" id="input-celular" placeholder="Celular"
+                  aria-label="Celular" aria-describedby="button-addon2">
+                <button class="btn btn-danger btn-size-2 fundo-vermelho pt-3 pb-3 pl-5 pr-5" type="button"
+                  id="button-addon2">Ligamos para
+                  você</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="container pb-5 pl-5 pr-5 mb-5">
+            <img class="img-fluid" src="assets/coding_.png" alt="video chamada">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /Segunda seção-->
+
+    <!-- Terceira seção-->
+    <div class="container-fluid mt-5 pt-5 pb-5">
+      <div class="card-deck mt-5 pt-5">
+        <div class="card ml-5">
+          <div class="card-body">
+            <div id="circulo"></div>
+            <p class="card-text h5">Já tive experiência com outras 4 empresas  área e a Codar é sem sombra de
+              dúvidas superior em todos os aspectos.</p>
+            <h5 class="card-title h3">Pedro Ferreira</h5>
+            <p class="card-text font-weight-bold h5">Contrutora Minari</p>
+          </div>
+        </div>
+        <div class="card mr-5 ml-5">
+          <div class="card-body">
+            <div id="circulo"></div>
+            <p class="card-text h5">Processos bem simples e criação de um site exatamente como a minha escola queria!
+            </p>
+            <h5 class="card-title h3">Maria Rita</h5>
+            <p class="card-text font-weight-bold h5">Escola Criança Feliz</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- /Terceira seção-->
+
+    <!-- Rodapé -->
+    <footer class="pt-4 my-md-5 pt-md-5 pb-5 pl-5 pr-5">
+      <div class="row">
+        <div class="col-3 col-md">
+          <h1 class="display-4 font-italic font-weight-bold">Codar.</h1>
+          <h5 class="pt-2">Criamos websites incríveis</h5>
+        </div>
+        <div class="col-3 col-md pt-4">
+          <h2 class="font-weight-bold mb-3 pb-1">Sobre</h2>
+          <h5>Amamos criar soluções e entregar sites incríveis</h5>
+        </div>
+        <div class="col-3 col-md pt-4">
+          <h2>Contato</h2>
+          <ul class="list-unstyled">
+            <li><a class="branco h5" href="#">123 Av. Manjar - Nárnia</a></li>
+            <li><a class="branco h5" href="#">+55 96 2321-3131</a></li>
+            <li><a class="branco h5" href="#"><u>contato@codar.com</u></a></li>
+          </ul>
+        </div>
+        <div class="col-3 col-md pt-4">
+          <h2>Redes Sociais</h2>
+          <img class="icon-size" src="assets/facebook.png" alt="ícone facebook">
+          <img class="icon-size" src="assets/instagram.png" alt="ícone instagram">
+          <img class="icon-size" src="assets/twitter.png" alt="ícone twitter">
+        </div>
+      </div>
+    </footer>
+    <!-- Rodapé -->
+  </main>
+  <!-- jQuery e Bootstrap Bundle (inclui Popper) -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
