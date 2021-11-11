@@ -19,17 +19,17 @@
 <body>
   <header>
     <!-- Navbar-->
-    <div class="container-fluid mb-5">
-      <div class="row pt-4 pl-3">
-        <div class="col-6">
+    <div class="container-fluid">
+      <div class="row pl-lg-3 pt-lg-0 pt-4">
+        <div class="col-lg-6 col-sm-12 center-align">
           <h5 class="font-weight-normal"><span id="codar">Codar</span><span id="ponto">.</span></h5>
         </div>
-        <div class="col-6 pl-0">
-          <nav class="navbar">
-            <a class="p-2 text-dark h2" href="#">Início</a>
-            <a class="p-2 text-dark h2" href="#">Serviços</a>
-            <a class="p-2 text-dark h2" href="#">Contato</a>
-            <a class="btn btn-danger fundo-vermelho pl-5 pr-5 ml-2 btn-size" href="#">Login</a>
+        <div class="col-lg-6 col-sm-12 pl-lg-0 pt-4">
+          <nav class="navbar center-align">
+            <a class="p-2 text-dark h3" href="#">Início</a>
+            <a class="p-2 text-dark h3" href="#">Serviços</a>
+            <a class="p-2 text-dark h3" href="#">Contato</a>
+            <a class="btn btn-danger fundo-vermelho pl-lg-5 pr-lg-5 ml-lg-2 btn-size" href="#" id="btn-login">Login</a>
           </nav>
         </div>
       </div>
@@ -39,18 +39,20 @@
 
   <main>
     <!-- Primeira seção-->
-    <div class="container-fluid mb-5 pb-5">
+    <div class="container-fluid mb-lg-5 pb-lg-5 mb-5 pb-5 pt-5" id="primeira-secao">
       <div class="row">
-        <div class="col-6">
-          <div class="container p-5 ml-5">
-            <img class="img-fluid p-5" src="assets/video_call.png" alt="video chamada">
+        <div class="col-lg-6">
+          <div class="container p-lg-5 ml-lg-5 px-5 mb-4">
+            <img class="img-fluid p-lg-5" src="assets/video_call.png" alt="video chamada">
           </div>
         </div>
-        <div class="col-6 pl-5 pt-5">
-          <div class="container-fluid pt-5 pl-5">
-            <h2 class="font-weight-bold pt-5">Alavanque seu negócio com um</h2>
-            <h1 class="display-3 font-weight-bold vermelho">Website incrível</h1>
-            <button class="btn btn-lg btn-danger fundo-vermelho btn-size mt-5 pl-5 pr-5">Solicitar orçamento</button>
+        <div class="col-lg-6 pl-lg-5 pt-lg-5 pt-4">
+          <div class="container-fluid pt-lg-5 pl-lg-5 center-align">
+            <h4 class="font-weight-bold pt-2">Alavanque seu negócio com um</h4>
+            <h1 class="font-weight-bold vermelho mb-4">Website incrível</h1>
+            <button
+              class="btn btn-lg btn-danger fundo-vermelho btn-size mt-lg-5 pl-lg-5 pr-lg-5 py-2">Solicitar
+              orçamento</button>
           </div>
         </div>
       </div>
@@ -58,11 +60,16 @@
     <!-- /Primeira seção-->
 
     <!-- Segunda seção-->
-    <div class="container-fluid mt-5 pt-5">
+    <div class="container-fluid mt-lg-5 pt-lg-5 ">
       <div class="row">
         <div class="col">
-          <div class="container-fluid pt-5 pl-5 ml-5">
-            <ul class="h2 mb-5 pt-5" id="servicos">
+          <div class="col-lg-6">
+            <div class="container pb-lg-5 pl-lg-5 pr-lg-5 mb-lg-5  py-5">
+              <img class="img-fluid" src="assets/coding_.png" alt="programando">
+            </div>
+          </div>
+          <div class="container-fluid pt-lg-5 pl-lg-5 ml-lg-5">
+            <ul class="h6 mb-lg-5 pt-lg-5" id="servicos">
               <li>Domínio personalizado</li>
               <li>Hospedagem</li>
               <li>Site responsivo</li>
@@ -70,21 +77,22 @@
               <li>Chat online</li>
               <li>Blog integrado</li>
             </ul>
-            <form class="container-fluid ml-5 mt-5 pt-5 mb-5">
-              <h2 class="font-weight-bold">Nossa equipe está à disposição!</h2>
-              <div class="input-group mt-3">
-                <input type="text" class="form-control mr-3 pl-4" id="input-celular" placeholder="Celular"
-                  aria-label="Celular" aria-describedby="button-addon2">
-                <button class="btn btn-danger btn-size-2 fundo-vermelho pt-3 pb-3 pl-5 pr-5" type="button"
-                  id="button-addon2">Ligamos para
-                  você</button>
-              </div>
-            </form>
-          </div>
-        </div>
-        <div class="col-6">
-          <div class="container pb-5 pl-5 pr-5 mb-5">
-            <img class="img-fluid" src="assets/coding_.png" alt="video chamada">
+            <div class="container-fluid mb-5">
+              <form class="ml-lg-5 mt-lg-5 pt-lg-4 mb-lg-5 center-align">
+                <h5 class="font-weight-bold">Nossa equipe está à disposição!</h5>
+                <div class="input-group mt-lg-3">
+                  <div class="col-lg-2 col-12 pt-2">
+                    <input type="text" class="form-control mr-lg-3 pl-lg-4" id="input-celular" placeholder="Celular"
+                      aria-label="Celular" aria-describedby="button-addon2">
+                  </div>
+                  <div class="col-lg-2 col-12 py-3">
+                    <button class="btn btn-danger btn-size-2 fundo-vermelho px-lg-5 py-3" type="button"
+                      id="button-addon2">Ligamos para
+                      você</button>
+                  </div>
+                </div>
+              </form>
+            </div>
           </div>
         </div>
       </div>
@@ -92,18 +100,18 @@
     <!-- /Segunda seção-->
 
     <!-- Terceira seção-->
-    <div class="container-fluid mt-5 pt-5 pb-5">
-      <div class="card-deck mt-5 pt-5">
-        <div class="card ml-5">
-          <div class="card-body">
-            <div id="circulo"></div>
-            <p class="card-text h5">Já tive experiência com outras 4 empresas  área e a Codar é sem sombra de
+    <div class="container-fluid mt-lg-5 pt-lg-5 pb-lg-5 mt-5">
+      <div class="card-deck mt-lg-5 pt-lg-5">
+        <div class="card ml-lg-5 mb-5">
+          <div class="card-body ">
+            <div class="float-left" id="circulo"></div>
+            <p class="card-text h5 d-inline">Já tive experiência com outras 4 empresas área e a Codar é sem sombra de
               dúvidas superior em todos os aspectos.</p>
             <h5 class="card-title h3">Pedro Ferreira</h5>
             <p class="card-text font-weight-bold h5">Contrutora Minari</p>
           </div>
         </div>
-        <div class="card mr-5 ml-5">
+        <div class="card mr-lg-5 ml-lg-5 mb-5">
           <div class="card-body">
             <div id="circulo"></div>
             <p class="card-text h5">Processos bem simples e criação de um site exatamente como a minha escola queria!
@@ -118,25 +126,25 @@
     <!-- /Terceira seção-->
 
     <!-- Rodapé -->
-    <footer class="pt-4 my-md-5 pt-md-5 pb-5 pl-5 pr-5">
+    <footer class="pt-lg-4 pb-lg-5">
       <div class="row">
-        <div class="col-3 col-md">
-          <h1 class="display-4 font-italic font-weight-bold">Codar.</h1>
+        <div class="col-lg-3 px-lg-0 ml-lg-5 py-4 " id="codar-lema">
+          <h1 class="display-4 font-italic">Codar.</h1>
           <h5 class="pt-2">Criamos websites incríveis</h5>
         </div>
-        <div class="col-3 col-md pt-4">
+        <div class="col-lg-3 px-lg-0 pt-lg-4 ml-lg-0 mb-2 ml-4">
           <h2 class="font-weight-bold mb-3 pb-1">Sobre</h2>
-          <h5>Amamos criar soluções e entregar sites incríveis</h5>
+          <h5>Amamos criar soluções<br>e entregar sites incríveis</h5>
         </div>
-        <div class="col-3 col-md pt-4">
+        <div class="col-lg-3 px-lg-0 pt-lg-4 ml-lg-0 mb-2 ml-4">
           <h2>Contato</h2>
           <ul class="list-unstyled">
             <li><a class="branco h5" href="#">123 Av. Manjar - Nárnia</a></li>
-            <li><a class="branco h5" href="#">+55 96 2321-3131</a></li>
-            <li><a class="branco h5" href="#"><u>contato@codar.com</u></a></li>
+            <li><a class="branco h5" href="tel:+559623213131">+55 96 2321-3131</a></li>
+            <li><a class="branco h5" href="mailto:contato@codar.com"><u>contato@codar.com</u></a></li>
           </ul>
         </div>
-        <div class="col-3 col-md pt-4">
+        <div class="col-lg-3 pt-lg-4 px-lg-0 ml-lg-0 mb-3 ml-4">
           <h2>Redes Sociais</h2>
           <img class="icon-size" src="assets/facebook.png" alt="ícone facebook">
           <img class="icon-size" src="assets/instagram.png" alt="ícone instagram">
